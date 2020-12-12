@@ -1,0 +1,2 @@
+# Templates
+Basic web templates
