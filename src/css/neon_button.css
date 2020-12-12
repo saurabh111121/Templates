@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Warnes&diplay=swap');
 .bg{
     background: url('https://linkpicture.com/q/14fc5c2f47586ef4be1d6d066253f3a8.jpg');
-    width: 600px;
-    height: 600px;
+    width: 1000px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
