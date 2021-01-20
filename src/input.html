@@ -8,28 +8,25 @@
             position: relative;
             height: 56px;
             border-radius: 0.5rem;
-            border: 2px solid rgba(255, 255, 255, 0.5);
-            
         }
 
         input {
             position: relative;
-            width: 180px;
             height: 56px;
             background: transparent;
-            border: 0;
+
             font-weight: 700;
             text-indent: 0.75rem;
-            color: #ff0100;
+            /* color: #ff0100; */
         }
 
         input:focus+.placeholder {
-            background-color: red;
+            background-color: white;
             transform: translate(0.625rem, -10px) scale(0.8);
         }
 
         .placeholder {
-            color: rgba(255, 255, 255, 0.875);
+            /* color: rgba(255, 255, 255, 0.875); */
             position: absolute;
             z-index: 0;
             top: 0;
@@ -38,7 +35,7 @@
             font-weight: 700;
             transform: translate(0.5rem, 15px);
             transform-origin: 0% 0%;
-            background: transparent;
+            /* background: transparent; */
             pointer-events: none;
             transition: transform 0.35s, background 0.35s;
         }
@@ -46,7 +43,7 @@
 
 </head>
 
-<body style="background-color: rebeccapurple;">
+<body style="">
     <div class="wrapper">
         <input type="text">
         <div class="placeholder">
